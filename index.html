@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/css/weather-icons.css" />
+    <link rel="stylesheet" href="css/css/weather-icons.min.css" />
+    <title>VanillaJS</title>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="top-bar__advice">
+        <span class="top-bar__advice-ment">Need advice?</span>
+        <p></p>
+      </div>
+      <div class="top-bar__weather">
+        <i class="today-Weather wi"></i>
+        <span class="js-weather"></span>
+      </div>
+    </div>
+    <div class="js-clock">
+      <h1 id="clock">00:00</h1>
+    </div>
+    <form class="js-form form">
+      <h2>Hello, What your name?</h2>
+      <input type="text" />
+    </form>
+    <h4 class="js-greeting greeting"></h4>
+    <form class="js-toDoForm">
+      <div class="js-toDoForm__input">
+        <h2 id="goal-question">What are your goals for today?</h2>
+        <input type="text" />
+      </div>
+      <div class="js-task">
+        <ul class="js-pending">
+          <h2>Todo List</h2>
+        </ul>
+        <ul class="js-finished">
+          <h2>Finished</h2>
+        </ul>
+      </div>
+    </form>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
